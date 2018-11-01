@@ -36,7 +36,7 @@
 }
 
 .container > div {
-  width: 50%;
+  min-width: 50%;
 }
 
 .item {
