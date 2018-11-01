@@ -35,9 +35,13 @@
   justify-content: space-between;
 }
 
+.container > div {
+  width: 50%;
+}
+
 .item {
   height: 25vh;
-  width: 25vh;
+  width: 100%;
   padding: 5px;
 }
 
@@ -60,7 +64,7 @@
 @media (min-width: 525px) {
   .item {
     height: 50vh;
-    width: 50vh;
+    width: 100%;
   }
 
   .list-items {
