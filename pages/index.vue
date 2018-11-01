@@ -29,20 +29,21 @@
   background-color: black;
 }
 
+.container > * {
+  max-width: 50%;
+}
+
 .list-items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.container > div {
-  min-width: 50%;
-}
-
 .item {
   height: 25vh;
-  width: 100%;
+  width: 25vh;
   padding: 5px;
+  max-width: 100%;
 }
 
 .item div {
@@ -64,13 +65,15 @@
 @media (min-width: 525px) {
   .item {
     height: 50vh;
-    width: 50%;
+    width: 50vh;
+    max-width: 100%;
   }
 
   .list-items {
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100vh;
+    max-width: 50%;
+    width: 100vh;
   }
 }
 
