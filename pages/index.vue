@@ -73,8 +73,26 @@
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 50%;
+    min-width: 100vh;
     width: 100vh;
   }
 }
+
+@media (min-width: 767px) {
+  .list-items {
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 50%;
+      min-width: 0;
+      width: 100vh;
+  }
+  
+  .item {
+    height: 50vh;
+    width: 50vh;
+    max-width: 100%;
+  }
+}
+
 
 </style>
