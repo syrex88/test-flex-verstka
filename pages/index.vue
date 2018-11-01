@@ -64,7 +64,7 @@
 @media (min-width: 525px) {
   .item {
     height: 50vh;
-    width: 100%;
+    width: 50%;
   }
 
   .list-items {
